@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Programmer</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.0/dist/smooth-scroll.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+    <div class="header-content">
+      <div class="photo">
+        <img src="assets/CV Photo.jpg" alt="Marija Doleska's Photo">
+      </div>
+      <div class="details">
+        <h1>Marija Doleska</h1>
+        <p>Programmer</p>
+      </div>
+    </div>
+    <div style="display:block; margin-top: 20px; align-content: start;">
+        <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#education">Education</a></li> <!-- Added an ID for the contact section -->
+            </ul>
+          </nav>
+      </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate programmer with experience in web development. I love creating efficient and scalable solutions to complex problems. I specialize in HTML, CSS, JavaScript, and Python.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <h3>Web Developer, ABC Company</h3>
+      <p class="date">2018 - Present</p>
+      <ul>
+        <li>Developed responsive websites using HTML, CSS, and JavaScript.</li>
+        <li>Collaborated with the design team to implement user-friendly interfaces.</li>
+        <li>Worked with backend developers to integrate frontend code with server-side logic.</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <h3>Bachelor's Degree in Computer Science, St. Kirils and Metody University</h3>
+      <p class="date">2022 - 2026</p>
+      <p>Relevant coursework: Data Structures, Algorithms, Web Development</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Marija Doleska</p>
+  </footer>
+</body>
+
+<script type="text/JavaScript">
+    
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 800,
+    easing: 'easeInOutCubic'
+  });
+</script>
+
+</html>
